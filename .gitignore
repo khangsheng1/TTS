@@ -1,0 +1,6 @@
+# Ignore python virtual environments or cache
+__pycache__/
+*.pyc
+
+# Ignore your actual text stories or books if they are private
+*.txt
