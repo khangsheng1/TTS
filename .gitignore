@@ -1,6 +1,16 @@
-# Ignore python virtual environments or cache
+# 1. Ignore Python system cache files
 __pycache__/
 *.pyc
 
-# Ignore your actual text stories or books if they are private
+# 2. Ignore Jupyter Notebook temporary checkpoints
+.ipynb_checkpoints/
+
+# 3. Ignore any exported audio files you generate during testing
+*.mp3
+
+# 4. Ignore all general text files by default to keep the repo clean
 *.txt
+
+# 5. EXCEPTION: Explicitly allow Git to see your example story folder and file
+!Short stories/
+!Short stories/A small bird.txt
