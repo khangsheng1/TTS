@@ -10,4 +10,4 @@ An interactive Jupyter Notebook application that uses the `edge-tts` engine to f
 ## 🛠️ Prerequisites
 Before running the notebook, make sure you have the required packages installed:
 ```bash
-pip install edge-tts pandas pygame aiohttp
+pip install edge-tts pandas pygame aiohttp tqdm
